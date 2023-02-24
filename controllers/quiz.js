@@ -65,7 +65,7 @@ exports.delete = async(req, res) => {
     quiz.destroy()
     
     res.json({
-      message: 'Quizzes updated successfully',
+      message: `Data dengan id ${id} berhasil dihapus`,
     });
   } catch (error) {
     res.status(500).json({

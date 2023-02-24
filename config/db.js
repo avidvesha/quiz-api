@@ -2,7 +2,7 @@ module.exports = {
   HOST: 'localhost',
   USER: 'root',
   PASSWORD: '',
-  DB: 'quizapi',
+  DB: 'spiapi',
   dialect: 'mysql',
   pool: {
     max: 5,
